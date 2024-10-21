@@ -1,0 +1,371 @@
+body {
+    background-color:#000000 ;
+    padding:10px 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+/* especificidad css */
+
+body div .modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(59, 50, 50, 0.33);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.636);
+    z-index: 2;
+}
+
+/* Mostrar el modal cuando es el objetivo */
+.modal:target {
+    display: flex;
+}
+
+/* Mostrar el overlay cuando un modal está abierto */
+.modal:target ~ #overlay {
+    display: block;
+}
+
+/* Estilos adicionales para los enlaces y el contenido */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;;
+    background-color: transparent;
+    color: #aeebfc;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight:800;
+    
+
+}
+
+a:hover {
+    background-color:  rgba(221, 84, 74, 0.719)
+}
+
+.contenido-modal {
+    width: 70%;
+    height: 80%;
+    border: 1px solid red;
+    background-color: #ededed;
+    overflow: auto;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #f95252;
+    border-radius: 7px;
+    border: 2px solid #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 7px;
+    border-bottom: 6px solid  rgba(255, 0, 0, 0.5);
+    width: 80%;
+    color: #f66147;
+    font-weight:800;
+      -webkit-text-stroke: 1px #000000;
+
+}
+#container {
+    border: 5px solid #f00;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    background-color: #5bccc6;
+    background-image: url("../img44/Quels-accessoires-pour-son-setup-gamer.jpg");
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.centrar { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 30px;
+    text-shadow: 0 0 30px #f00;
+}
+.Cerrar{
+    color: #000000;
+
+    overflow: auto;
+}
+p {
+    margin-left: 20% ;
+    margin-right: 20%;
+    padding: auto;
+    
+}
+.centrando1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando1 img{
+    width: 300p;
+    height: 200px;
+     border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}
+.centrando2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando2 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}
+.centrando3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando3 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}
+.centrando4{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando4 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}.centrando5{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando5 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}.centrando6{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando6 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}.centrando7{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200px;
+    
+}
+.centrando7 img{
+    width: 300p;
+    height: 200px;
+    border: 3px solid #fa4b4b; 
+    box-shadow: 0 0 20px #ff0a0a;
+}
+.Cerrar-Bio{
+    border: 2px solid black;
+    width: 110px;
+    height: auto;
+    border-radius: 7px;
+    padding: 6px 2px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(239, 108, 91);
+}
+.Cerrar-Bio:hover {
+    background-color: rgb(255, 2, 2) ;
+}
+.contenido-modal1 {
+    width: 60%;
+    height: 80%;
+    border: 1px solid red;
+    background-color: #ededed;
+    overflow: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url("../img44/bio1.jpg");
+    background-position:center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 22px;
+    color: #fff;
+}
+.sombra1{
+    color: #f00;
+    font-size: 40px;
+}
+.Cerrar1{
+    border: 2px solid black;
+    width: 110px;
+    height: auto;
+    border-radius: 7px;
+    padding: 6px 2px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(239, 108, 91)
+}
+.contenido-modal2{
+    width: 60%;
+    height: 80%;
+    border: 1px solid red;
+    background-color: #ededed;
+    overflow: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.80)),
+    url("../img44/glo.jpg");
+    background-position:center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    
+    color: #ffffff;
+}
+.Cerrar2{
+    border: 2px solid black;
+    width: 110px;
+    height: auto;
+    border-radius: 7px;
+    padding: 6px 2px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(239, 108, 91)
+}
+.sombra2{
+    color: #f00;
+    font-size: 40px;
+}
+strong {
+    color: #f00;
+    font-size: 20px;
+}
+.color-letras-bio {
+    color: #e8e8e6;
+}
+.tema{
+    color: #f00;
+    -webkit-text-stroke: 0.50px rgb(80, 63, 63);
+    font-size: 28px;
+}
+li {
+    list-style: none;
+}
+/* Estilos generales para todos los dispositivos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hacer que las imágenes se ajusten al ancho de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .menu {
+        display: block;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .menu-item {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid #444;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-item {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+/* Estilos para pantallas grandes (escritorio) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+}
